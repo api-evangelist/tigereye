@@ -1,8 +1,25 @@
 aid: tigereye
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tigereye.png
 name: TigerEye
-description: 'TigerEye is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'TigerEye is an AI company for the construction industry, helping builders
+  get answers faster and spend less time searching for information across construction,
+  business intelligence, and home planning and delivery workflows. Founded as an
+  Initialized Capital-backed startup and acquired by homebuilder Lennar to scale its
+  capabilities nationally, TigerEye operates a public marketing site with an About page,
+  Terms of Use, and Privacy Policy. As of this enrichment pass it publishes no public
+  API, developer portal, SDK, documentation, or well-known discovery surface, and its
+  former Secureframe-hosted trust center now redirects to a 404.'
 url: https://raw.githubusercontent.com/api-evangelist/tigereye/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Construction
+- Construction Technology
+- Business Intelligence
 - Enterprise Saas
 apis: []
 maintainers:
@@ -23,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tigereye-domain-security.yml
 - type: Website
   url: https://tigereye.com/
+- type: TermsOfService
+  url: https://tigereye.com/terms
+- type: PrivacyPolicy
+  url: https://tigereye.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
